@@ -1,10 +1,13 @@
+import AboutSection from "./AboutSection";
 import { Banner } from "./BannnerCarousel/Banner";
 
 
 const Home = () => {
   return (
-    <div >
-      <Banner className="container mx-auto" />
+    <div className="container mx-auto">
+      <Banner  />
+
+      <AboutSection/>
 
     </div>
   );
