@@ -37,7 +37,7 @@ const NavigationAction = () => {
           </Sheet>
         </div>
 
-        <div className="hidden md:flex md:space-x-4">
+        <div className="hidden md:flex md:space-x-1">
          
         <Button variant="ghost">Fb</Button>
         <Button variant="ghost">In</Button>

@@ -1,4 +1,4 @@
-import { Card, CardContent } from "@/components/ui/card";
+
 import {
   Carousel,
   CarouselContent,
@@ -9,34 +9,22 @@ import {
 
 import Autoplay from "embla-carousel-autoplay";
 
+
 export function Banner() {
   return (
     <div className="flex justify-center">
       <Carousel
         plugins={[Autoplay({ delay: 3000 })]}
-        className="w-full  max-w-xs lg:max-w-2xl  "
+        className="relative lg:max-w-6xl w-full  "
       >
-        <CarouselContent className=" w-full h-full">
-          {/* {Array.from({ length: 5 }).map((_, index) => (
-            <CarouselItem key={index}>
-              <div className="p-1">
-                <Card>
-                  <CardContent className="flex items-center ">
-                   
-
-                    <CarouselItem><img src="https://images.pexels.com/photos/27054224/pexels-photo-27054224/free-photo-of-motorbike-parked-on-hill-on-sea-coast.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""  /></CarouselItem>
-                    <CarouselItem><img src="https://images.pexels.com/photos/20083342/pexels-photo-20083342/free-photo-of-whale-with-calf-in-sea.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""  /></CarouselItem>
-                   
-                  </CardContent>
-                </Card>
-              </div>
-            </CarouselItem>
-          ))} */}
-          <CarouselItem><img src="https://images.pexels.com/photos/5206323/pexels-photo-5206323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="processor" /></CarouselItem>
-          <CarouselItem><img src="https://images.pexels.com/photos/2880732/pexels-photo-2880732.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="keyboard" /></CarouselItem>
-          <CarouselItem><img src="https://images.pexels.com/photos/18382829/pexels-photo-18382829/free-photo-of-top-view-of-colorful-keyboard.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="keyboard" /></CarouselItem>
-          <CarouselItem><img src="https://images.pexels.com/photos/2582932/pexels-photo-2582932.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Motherboard" /></CarouselItem>
-          <CarouselItem><img src="https://images.pexels.com/photos/6704953/pexels-photo-6704953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="GPU" /></CarouselItem>
+        <CarouselContent className=" w-full h-full ">
+          
+          <CarouselItem><img src="https://images.pexels.com/photos/6930545/pexels-photo-6930545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="processor" /></CarouselItem>
+          <CarouselItem><img src="https://images.pexels.com/photos/7433825/pexels-photo-7433825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="keyboard" /></CarouselItem>
+          <CarouselItem><img src="https://images.pexels.com/photos/7564242/pexels-photo-7564242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="keyboard" /></CarouselItem>
+          <CarouselItem><img src="https://images.pexels.com/photos/8067821/pexels-photo-8067821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Motherboard" /></CarouselItem>
+          <CarouselItem><img src="https://images.pexels.com/photos/4584830/pexels-photo-4584830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Motherboard" /></CarouselItem>
+          
 
         </CarouselContent>
         <CarouselPrevious />
