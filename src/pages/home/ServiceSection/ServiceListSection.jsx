@@ -8,6 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import CountService from "./CountService";
 
 const ServiceListSection = () => {
   const [services, setServices] = useState([]);
@@ -68,6 +69,13 @@ const ServiceListSection = () => {
           ))}
         </div>
       </div>
+
+
+        {/* counter Cards Section */}
+
+        <CountService/>
+
+
     </section>
   );
 };
