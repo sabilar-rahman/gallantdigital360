@@ -4,6 +4,7 @@ import img1 from "../../assets/aboutsection/about-1.jpg";
 import img2 from "../../assets/aboutsection/about-2.jpg";
 import img3 from "../../assets/aboutsection/about-3.jpg";
 import img4 from "../../assets/aboutsection/about-4.jpg";
+import { Button } from "@/components/ui/button";
 
 const images = [
     {
@@ -73,6 +74,7 @@ const AboutSection = () => {
                         to social impact, we envision a future where technology is the driving force behind 
                         success and meaningful change.
                     </p>
+                    <Button variant="destructive" className="mt-4">About More</Button>
                 </div>
 
                 {/* Images Section */}
