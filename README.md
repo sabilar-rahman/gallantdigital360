@@ -27,7 +27,7 @@ This is a fully responsive frontend project designed for the Gallant Digital Fro
 
 ## Screenshots
 ### Home Page
-![Home Page Screenshot](./screenshots/home-page.png)
+![Home Page Screenshot](https://github.com/sabilar-rahman/gallantdigital360/blob/main/public/Homepage.jpeg)
 
 
 
