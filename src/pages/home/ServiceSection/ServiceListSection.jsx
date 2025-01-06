@@ -44,7 +44,7 @@ const ServiceListSection = () => {
           {services.map((service) => (
             <Card
               key={service.id}
-              className="shadow-lg border border-red-200 hover:text-red-600"
+              className="shadow-lg border border-red-300 hover:text-red-600 hover:border-black"
             >
               <CardHeader>
                 <CardTitle>{service.title}</CardTitle>
