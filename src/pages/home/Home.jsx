@@ -3,16 +3,14 @@ import { Banner } from "./BannnerCarousel/Banner";
 import ServiceListSection from "./ServiceSection/ServiceListSection";
 import Testimonial from "./Testimonial";
 
-
 const Home = () => {
   return (
     <div className="container mx-auto">
-      <Banner  />
+      <Banner />
 
-      <AboutSection/>
-      <ServiceListSection/>
-      <Testimonial/>
-
+      <AboutSection />
+      <ServiceListSection />
+      <Testimonial />
     </div>
   );
 };

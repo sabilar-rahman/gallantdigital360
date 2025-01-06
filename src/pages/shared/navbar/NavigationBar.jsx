@@ -36,14 +36,14 @@ const NavigationBar = () => {
     <NavigationMenu>
       <NavigationMenuList className="hidden md:flex ">
         <NavigationMenuItem>
-          <Link href="/">
+          <Link to="/">
             <NavigationMenuLink>
               <Button variant="ghost"> Home</Button>{" "}
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/about">
+          <Link to="/about">
             <NavigationMenuLink>
               <Button variant="ghost">About Us</Button>
             </NavigationMenuLink>
@@ -62,7 +62,7 @@ const NavigationBar = () => {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/blogs">
+          <Link to="/blogs">
             <NavigationMenuLink>
               <Button variant="ghost">Blogs</Button>
             </NavigationMenuLink>
@@ -70,7 +70,7 @@ const NavigationBar = () => {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <Link href="/contact">
+          <Link to="/contact">
             <NavigationMenuLink>
               <Button variant="ghost">Contact Us</Button>
             </NavigationMenuLink>

@@ -1,23 +1,18 @@
+import { Outlet } from "react-router-dom";
 
-import { Outlet } from 'react-router-dom'
-
-import Navbar from './pages/shared/navbar/Navbar'
-import Footer from './pages/shared/footer/Footer'
+import Navbar from "./pages/shared/navbar/Navbar";
+import Footer from "./pages/shared/footer/Footer";
 
 function App() {
-
-
   return (
     <>
-      <div >
-
-        <Navbar className='container mx-auto' />
+      <div>
+        <Navbar  />
         <Outlet />
-        <Footer/>
-
+        <Footer />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
