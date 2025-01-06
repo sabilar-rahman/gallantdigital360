@@ -31,10 +31,20 @@ This is a fully responsive frontend project designed for the Gallant Digital Fro
 
 
 
-> Include more screenshots as necessary.
 
 ## How to Run the Project Locally
 1. Clone the repository:
    ```bash
    git clone https://github.com/sabilar-rahman/gallantdigital360.git
    cd your-repo-name
+
+2.  Install dependencies:
+
+    ```bash
+    npm install
+
+3. Run the project:
+    ```bash
+    npm run dev
+
+
