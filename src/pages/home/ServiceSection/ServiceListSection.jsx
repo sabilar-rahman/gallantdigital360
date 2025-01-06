@@ -53,7 +53,7 @@ const ServiceListSection = () => {
                   {" "}
                   {service.description.split(" ").length > 20
                     ? service.description.split(" ").slice(0, 20).join(" ") +
-                      "..."
+                    "..."
                     : service.description}
                 </CardDescription>
               </CardHeader>
@@ -67,13 +67,17 @@ const ServiceListSection = () => {
               </CardFooter>
             </Card>
           ))}
+
         </div>
       </div>
 
 
-        {/* counter Cards Section */}
+      {/* counter Cards Section */}
+      <h2 className="text-3xl text-center font-bold text-red-600 mt-12">
+        OUR ACHIEVEMENTS
+      </h2>
 
-        <CountService/>
+      <CountService />
 
 
     </section>
