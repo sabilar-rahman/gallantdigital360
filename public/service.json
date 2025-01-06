@@ -1,0 +1,41 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "title": "Custom Software Development",
+        "description": "Custom software development at Gallant Design. At Gallant Design, we specialize in providing high-quality, customized software solutions that perfectly fit your needs.",
+        "read_more": "Read more"
+      },
+      {
+        "id": 2,
+        "title": "Web Application Design & Development",
+        "description": "Web Design and Development. A well-designed website can make all the difference in the success of your business. Your website is often the first point of interaction for potential customers.",
+        "read_more": "Read more"
+      },
+      {
+        "id": 3,
+        "title": "Advanced AI Business Intelligence",
+        "description": "Advanced AI Business Intelligence at Gallant Design. In today's data-driven world, businesses need more than just insights—they need actionable intelligence.",
+        "read_more": "Read more"
+      },
+      {
+        "id": 4,
+        "title": "Complete E-Commerce Solution",
+        "description": "ECommerce/Dropshipping Store Management Services. Revolutionize Your E-commerce and Dropshipping Store with Expert Management Services. Running an eCommerce store has never been easier.",
+        "read_more": "Read more"
+      },
+      {
+        "id": 5,
+        "title": "Mobile Application Design & Development",
+        "description": "Mobile Application Design & Development with Gallant Digital. The world of technology is constantly evolving, and the demand for innovative, user-friendly mobile apps is on the rise.",
+        "read_more": "Read more"
+      },
+      {
+        "id": 6,
+        "title": "Digital Marketing",
+        "description": "Digital Marketing at Gallant Design. In the rapidly evolving digital landscape, having a strong online presence is more crucial than ever. At Gallant Digital, we help your business stand out.",
+        "read_more": "Read more"
+      }
+    ]
+  }
+  

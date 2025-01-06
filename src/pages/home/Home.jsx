@@ -1,5 +1,6 @@
 import AboutSection from "./AboutSection";
 import { Banner } from "./BannnerCarousel/Banner";
+import ServiceListSection from "./ServiceSection/ServiceListSection";
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Banner  />
 
       <AboutSection/>
+      <ServiceListSection/>
 
     </div>
   );

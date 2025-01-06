@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -5,7 +6,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  navigationMenuTriggerStyle
+  navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { Link } from "react-router-dom";
 
@@ -27,26 +28,29 @@ const components = [
     href: "/docs/primitives/progress",
     description:
       "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
-  }
-]
+  },
+];
 
 const NavigationBar = () => {
   return (
     <NavigationMenu>
       <NavigationMenuList className="hidden md:flex ">
         <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>Home</NavigationMenuLink>
+          <Link href="/">
+            <NavigationMenuLink>
+              <Button variant="ghost"> Home</Button>{" "}
+            </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/about" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>About Us</NavigationMenuLink>
+          <Link href="/about">
+            <NavigationMenuLink>
+              <Button variant="ghost">About Us</Button>
+            </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-
-          <NavigationMenuTrigger>Our Solutions </NavigationMenuTrigger>
+          <NavigationMenuTrigger>Our Solutions</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2">
               {components.map((component) => (
@@ -56,17 +60,20 @@ const NavigationBar = () => {
               ))}
             </ul>
           </NavigationMenuContent>
-
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/blogs" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>Blogs</NavigationMenuLink>
+          <Link href="/blogs">
+            <NavigationMenuLink>
+              <Button variant="ghost">Blogs</Button>
+            </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <Link href="/contact" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>Contact Us</NavigationMenuLink>
+          <Link href="/contact">
+            <NavigationMenuLink>
+              <Button variant="ghost">Contact Us</Button>
+            </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
       </NavigationMenuList>

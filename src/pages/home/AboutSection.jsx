@@ -55,7 +55,7 @@ const AboutSection = () => {
                     {/* <h2 className="text-3xl font-bold text-gray-800 mb-6 leading-tight">
                         About Us
                     </h2> */}
-                     <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0 text-red-500">
+                     <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0 text-red-600">
                      About Us
                      </h2>
                     <p className="text-gray-700 text-lg mb-8 text-justify">
